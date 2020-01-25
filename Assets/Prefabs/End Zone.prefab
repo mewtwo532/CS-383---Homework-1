@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3996420063885234482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 121947486966733452}
+  - component: {fileID: 7458520315747006326}
+  - component: {fileID: 1507130050}
+  m_Layer: 0
+  m_Name: End Zone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &121947486966733452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3996420063885234482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.39, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &7458520315747006326
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3996420063885234482}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.32093096, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.35813808, y: 10.5}
+  m_EdgeRadius: 0
+--- !u!114 &1507130050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3996420063885234482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576f8acc1aaf4e64ea9e91f2179fad1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreObject: {fileID: 0}
+  One: {fileID: 21300000, guid: ddb84853b5ea38f45a88575b68b816fa, type: 3}
+  Two: {fileID: 21300000, guid: 680235bd03e4de44793f5588dfb97d67, type: 3}
+  Three: {fileID: 21300000, guid: b51adee2acf5ed6499a707fc9d5c7a83, type: 3}
+  Four: {fileID: 21300000, guid: 06d81928e535b954cb92482d39b03798, type: 3}
+  Five: {fileID: 21300000, guid: ba725cc37ef15d44fb825174a74f92d6, type: 3}
+  Six: {fileID: 21300000, guid: b6f98b416626cb646a9e0a65ded192ce, type: 3}
+  Seven: {fileID: 21300000, guid: 3c95a85d80686f545b04948b0ffc1925, type: 3}
+  Eight: {fileID: 21300000, guid: a6252ee480624f640818a82e549fd7f8, type: 3}
+  Nine: {fileID: 21300000, guid: 75327d67c73b59241bcd0a54684134b4, type: 3}
+  Zero: {fileID: 21300000, guid: 71dfe89ca9d4feb448ad527fa683b929, type: 3}
